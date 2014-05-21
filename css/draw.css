@@ -1,0 +1,94 @@
+html {
+    font-family: "Helvetica Neue",Arial,"Hiragino Sans GB","Microsoft Yahei",Helvetica,sans-serif,Lato;
+}
+body, html {
+    color: #10181F;
+}
+body, html {
+    font-size: 16px;
+    line-height: 1.2em;
+    text-align: center;
+}
+dl, ol, ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.lu-table {
+  float: left;
+  width: 546px;
+  margin-left: 75px;
+  _margin-left: 40px;
+}
+.ta-row {
+  height: 156px;
+  margin-bottom: 36px;
+}
+.ta-row li {
+  float: left;
+  height: 156px;
+  width: 156px;
+  margin-right: 26px;
+  color: #666666;
+  position: relative;
+}
+.ta-row li img {
+	height: 156px;
+	width: 156px;
+}
+.ta-row li.money-pre {
+  height: 152px;
+  width: 152px;
+  border: 2px solid #EB0028;
+  color: #EB0028;
+}
+.ta-row li.lu-btn {
+  border: 0px;
+  background-color: #eb0028;
+  cursor: pointer;
+  line-height: 156px;
+  font-size: 30px;
+  color: #ffffff;
+}
+.ta-row li.on-turn {
+  border-bottom: 0px;
+  background-color: #ae001e;
+}
+.ta-row .money-sum {
+  height: 42px;
+  line-height: 42px;
+  margin: 40px 0 0;
+}
+.ta-row .mon-head {
+  font-size: 54px;
+}
+.ta-row .mon-end {
+  font-size: 30px;
+  position: relative;
+  top: -15px;
+}
+.ta-row .mon-stock {
+  font-size: 16px;
+  margin: 8px 0 0;
+  width: 100px;
+  text-align: right;
+  position: relative;
+  left: 24px;
+  _left: -4px;
+}
+.ta-row li.lucky-current {
+  border: 2px solid #428BCA;
+  background: none repeat scroll 0 0 #428BCA;
+  color: #ffffff;
+}
+.ta-row li.lucky-curpic span {
+  display: inline-block;
+  position: absolute;
+  height: 156px;
+  width: 156px;
+  background-color: #428BCA;
+  filter: alpha(opacity=50);
+  -moz-opacity: .5;
+  opacity: .5;
+  _position: absolute;
+}
